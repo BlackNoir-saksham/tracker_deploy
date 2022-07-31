@@ -8,13 +8,13 @@ function InfoBoxes(props) {
       <Card className="infobox">
         <CardContent>
           {/* {title} */}
-          <Typography color="textSecondary" className="infobox__title">{props.title}</Typography>
+          <div color="textSecondary" className="infobox__title">{props.title}</div>
 
           {/* {number of cases} */}
           <h2 className="infobox__cases">{props.cases} <small>Today</small></h2>
 
           {/* {total} */}
-          <Typography color="textSecondary" className="infobox__total">{props.total} Total</Typography>
+          <div color="textSecondary" className="infobox__total">{props.total} Total</div>
         </CardContent>
       </Card>
     </>
