@@ -1,6 +1,6 @@
 {
   "name": "covid-tracker",
-  "homepage": "http://BlackNoir-saksham.github.io/deploy_tracker",
+  "homepage": "http://BlackNoir-saksham.github.io/tracker_deploy",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
